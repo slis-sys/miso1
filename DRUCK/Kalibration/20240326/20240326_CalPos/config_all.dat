@@ -1,0 +1,2274 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>19.0.1f3</Version>
+<Cluster>
+<Name>Config All</Name>
+<NumElts>14</NumElts>
+<Cluster>
+<Name>Baratron_Conf</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Baratron_Conf_DAQ</Name>
+<NumElts>6</NumElts>
+<DAQChannel>
+<Name>Baratron Adress</Name>
+<Val></Val>
+</DAQChannel>
+<String>
+<Name>Name</Name>
+<Val>bara</Val>
+</String>
+<DBL>
+<Name>Sample Rate</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>No. of Samples</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Baratron Range</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Baratron Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Bara_Conf_Multi</Name>
+<NumElts>5</NumElts>
+<Cluster>
+<Name>Keithley 2000 
+Temp_adv_cluster</Name>
+<NumElts>12</NumElts>
+<DBL>
+<Name>Reference Value (0.000)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Reference (0: Off)</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Resolution (7: 6.5 digits)</Name>
+<Val>7</Val>
+</U16>
+<DBL>
+<Name>Power Line Cycles (1.00)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Temperature Units (0: Celsius)</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Digital Filter (0: Off)</Name>
+<Val>0</Val>
+</U16>
+<I32>
+<Name>Digital Filter Readings (10)</Name>
+<Val>10</Val>
+</I32>
+<DBL>
+<Name>Voltage Offset (5.463E-2 V)</Name>
+<Val>5.46300000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>Temperature Coefficient (2.00E-4 deg C/V)</Name>
+<Val>2.00000000000000E-4</Val>
+</DBL>
+<DBL>
+<Name>Simulated Temperature (23.00 deg)</Name>
+<Val>23.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Thermocouple Type (0: J)</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>R-Junction Type (0: Simulated)</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>AG/HP 34970A 
+Temp_adv_cluster</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>Transducer Type (0:TC)</Name>
+<Choice>Thermocouple</Choice>
+<Choice>Thermistor</Choice>
+<Choice>RTD</Choice>
+<Choice>4-Wire RTD</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Thermocouple Configuration</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>Thermocouple Type (Last)</Name>
+<Choice>B</Choice>
+<Choice>E</Choice>
+<Choice>J</Choice>
+<Choice>K</Choice>
+<Choice>N</Choice>
+<Choice>R</Choice>
+<Choice>S</Choice>
+<Choice>T</Choice>
+<Choice>Default (Last)</Choice>
+<Val>8</Val>
+</EW>
+<EW>
+<Name>TC Rjunction (2:Int)</Name>
+<Choice>Fixed</Choice>
+<Choice>External</Choice>
+<Choice>Internal</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Fixed Rjunction Temp (0:Manual)</Name>
+<Choice>Manual</Choice>
+<Choice>Minimum</Choice>
+<Choice>Maximum</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>TC Auto Check? (F:Don't Check)</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Rjunct Temp Value (0)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>RTD Configuration</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>RTD Type (2:Last)</Name>
+<Choice>85</Choice>
+<Choice>91</Choice>
+<Choice>Default (Last)</Choice>
+<Val>2</Val>
+</EW>
+<DBL>
+<Name>RTD Ref Resistance (100)</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+</Cluster>
+<EW>
+<Name>Thermistor Type (3:Last)</Name>
+<Choice>2252</Choice>
+<Choice>5000</Choice>
+<Choice>10000</Choice>
+<Choice>Default (Last)</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>Units (0:Celsius)</Name>
+<Choice>Celsius</Choice>
+<Choice>Fahrenheit</Choice>
+<Choice>Kelvin</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Measurement control</Name>
+<NumElts>7</NumElts>
+<EW>
+<Name>Multimetertype:</Name>
+<Choice>Agilent/HP 34970A</Choice>
+<Choice>Keithley 2000</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Measurement (1:DC Volt)</Name>
+<Choice>Temperature</Choice>
+<Choice>DC Voltage</Choice>
+<Choice>AC Voltage</Choice>
+<Choice>DC Current</Choice>
+<Choice>AC Current</Choice>
+<Choice>Resistance</Choice>
+<Choice>4-Wire Resistance</Choice>
+<Choice>Frequency</Choice>
+<Choice>Period</Choice>
+<Val>1</Val>
+</EW>
+<Refnum>
+<Name>VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val>GPIB::9</Val>
+</Refnum>
+<I32>
+<Name>Number of Readings (1)</Name>
+<Val>10</Val>
+</I32>
+<Array>
+<Name>Channels to read:</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Channels to read:</Name>
+<Val></Val>
+</I32>
+</Array>
+<Cluster>
+<Name>calc_mX+b</Name>
+<NumElts>4</NumElts>
+<Boolean>
+<Name>enable mX+b</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>m</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>b</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>unit</Name>
+<Val>MxB</Val>
+</String>
+</Cluster>
+<EW>
+<Name>Integration time:</Name>
+<Choice>0.2 ms (Keithley 2000 only)</Choice>
+<Choice>0.4 ms</Choice>
+<Choice>4 ms</Choice>
+<Choice>20 ms</Choice>
+<Choice>40 ms</Choice>
+<Choice>200 ms</Choice>
+<Choice>400 ms (AG/HP 34970A only)</Choice>
+<Choice>2 s (AG/HP 34970A only)</Choice>
+<Choice>4 s (AG/HP 34970A only)</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<DBL>
+<Name>Baratron Range</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Tempmeas. Conf</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>Keithley 2000 
+Temp_adv_cluster</Name>
+<NumElts>12</NumElts>
+<DBL>
+<Name>Reference Value (0.000)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Reference (0: Off)</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Resolution (7: 6.5 digits)</Name>
+<Val>7</Val>
+</U16>
+<DBL>
+<Name>Power Line Cycles (1.00)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Temperature Units (0: Celsius)</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Digital Filter (0: Off)</Name>
+<Val>0</Val>
+</U16>
+<I32>
+<Name>Digital Filter Readings (10)</Name>
+<Val>10</Val>
+</I32>
+<DBL>
+<Name>Voltage Offset (5.463E-2 V)</Name>
+<Val>5.46300000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>Temperature Coefficient (2.00E-4 deg C/V)</Name>
+<Val>2.00000000000000E-4</Val>
+</DBL>
+<DBL>
+<Name>Simulated Temperature (23.00 deg)</Name>
+<Val>23.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Thermocouple Type (0: J)</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>R-Junction Type (0: Simulated)</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>AG/HP 34970A 
+Temp_adv_cluster</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>Transducer Type (0:TC)</Name>
+<Choice>Thermocouple</Choice>
+<Choice>Thermistor</Choice>
+<Choice>RTD</Choice>
+<Choice>4-Wire RTD</Choice>
+<Val>3</Val>
+</EW>
+<Cluster>
+<Name>Thermocouple Configuration</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>Thermocouple Type (Last)</Name>
+<Choice>B</Choice>
+<Choice>E</Choice>
+<Choice>J</Choice>
+<Choice>K</Choice>
+<Choice>N</Choice>
+<Choice>R</Choice>
+<Choice>S</Choice>
+<Choice>T</Choice>
+<Choice>Default (Last)</Choice>
+<Val>8</Val>
+</EW>
+<EW>
+<Name>TC Rjunction (2:Int)</Name>
+<Choice>Fixed</Choice>
+<Choice>External</Choice>
+<Choice>Internal</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Fixed Rjunction Temp (0:Manual)</Name>
+<Choice>Manual</Choice>
+<Choice>Minimum</Choice>
+<Choice>Maximum</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>TC Auto Check? (F:Don't Check)</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Rjunct Temp Value (0)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>RTD Configuration</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>RTD Type (2:Last)</Name>
+<Choice>85</Choice>
+<Choice>91</Choice>
+<Choice>Default (Last)</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>RTD Ref Resistance (100)</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+</Cluster>
+<EW>
+<Name>Thermistor Type (3:Last)</Name>
+<Choice>2252</Choice>
+<Choice>5000</Choice>
+<Choice>10000</Choice>
+<Choice>Default (Last)</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Units (0:Celsius)</Name>
+<Choice>Celsius</Choice>
+<Choice>Fahrenheit</Choice>
+<Choice>Kelvin</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Measurement control</Name>
+<NumElts>7</NumElts>
+<EW>
+<Name>Multimetertype:</Name>
+<Choice>Agilent/HP 34970A</Choice>
+<Choice>Keithley 2000</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Measurement (1:DC Volt)</Name>
+<Choice>Temperature</Choice>
+<Choice>DC Voltage</Choice>
+<Choice>AC Voltage</Choice>
+<Choice>DC Current</Choice>
+<Choice>AC Current</Choice>
+<Choice>Resistance</Choice>
+<Choice>4-Wire Resistance</Choice>
+<Choice>Frequency</Choice>
+<Choice>Period</Choice>
+<Val>1</Val>
+</EW>
+<Refnum>
+<Name>VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val>GPIB::9</Val>
+</Refnum>
+<I32>
+<Name>Number of Readings (1)</Name>
+<Val>3</Val>
+</I32>
+<Array>
+<Name>Channels to read:</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Channels to read:</Name>
+<Val></Val>
+</I32>
+</Array>
+<Cluster>
+<Name>calc_mX+b</Name>
+<NumElts>4</NumElts>
+<Boolean>
+<Name>enable mX+b</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>m</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>b</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>unit</Name>
+<Val>MxB</Val>
+</String>
+</Cluster>
+<EW>
+<Name>Integration time:</Name>
+<Choice>0.2 ms (Keithley 2000 only)</Choice>
+<Choice>0.4 ms</Choice>
+<Choice>4 ms</Choice>
+<Choice>20 ms</Choice>
+<Choice>40 ms</Choice>
+<Choice>200 ms</Choice>
+<Choice>400 ms (AG/HP 34970A only)</Choice>
+<Choice>2 s (AG/HP 34970A only)</Choice>
+<Choice>4 s (AG/HP 34970A only)</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Traverse_Config</Name>
+<NumElts>7</NumElts>
+<Refnum>
+<Name>VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val>COM4</Val>
+</Refnum>
+<EW>
+<Name>No. of axis</Name>
+<Choice>1</Choice>
+<Choice>2</Choice>
+<Choice>3</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Functions ?</Name>
+<Choice>Do reference run</Choice>
+<Choice>Go to position: (absolutly)</Choice>
+<Choice>Movement: (relativ)</Choice>
+<Choice>Set Home (position 0)</Choice>
+<Choice>Axis positions ?</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Selected axis</Name>
+<Choice>x</Choice>
+<Choice>y</Choice>
+<Choice>z</Choice>
+<Choice>xy</Choice>
+<Choice>xz</Choice>
+<Choice>yz</Choice>
+<Choice>xyz</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>axis-parameter</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>x-axis</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>speed</Name>
+<Val>2000</Val>
+</U32>
+<DBL>
+<Name>position
+in mm</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>y-axis</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>speed</Name>
+<Val>2000</Val>
+</U32>
+<DBL>
+<Name>position
+in mm</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>z-axis</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>speed</Name>
+<Val>2000</Val>
+</U32>
+<DBL>
+<Name>position
+in mm</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Directions Flags &amp; Ratio</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>x-axis</Name>
+<NumElts>2</NumElts>
+<Boolean>
+<Name>invert direction</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Steps per mm</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>y-axis</Name>
+<NumElts>2</NumElts>
+<Boolean>
+<Name>invert direction</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Steps per mm</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>z-axis</Name>
+<NumElts>2</NumElts>
+<Boolean>
+<Name>invert direction </Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Steps per mm</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<EW>
+<Name>Type of Traverse</Name>
+<Choice>No traverse</Choice>
+<Choice>ISEL</Choice>
+<Choice>MOCO</Choice>
+<Choice>JVL</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Path>
+<Name>Work Folder Path</Name>
+<Val>C:\PMP_measurements\Vladi\20240326\20240326_CalPos</Val>
+</Path>
+<EW>
+<Name>Type of velocity measurement</Name>
+<Choice>Prandtl Tube</Choice>
+<Choice>Nozzle (GroWiKa)</Choice>
+<Choice>Nozzle (EiWiKa)</Choice>
+<Val>0</Val>
+</EW>
+<EL>
+<Name>Velocity measurement</Name>
+<Choice>Multimeter</Choice>
+<Choice>cDAQ</Choice>
+<Choice>Off</Choice>
+<Val>2</Val>
+</EL>
+<EL>
+<Name>Temperature measurement</Name>
+<Choice>Multimeter</Choice>
+<Choice>cDAQ</Choice>
+<Choice>Off</Choice>
+<Val>2</Val>
+</EL>
+<Cluster>
+<Name>Ambient Condition</Name>
+<NumElts>5</NumElts>
+<DBL>
+<Name>Ambient Pressure [Pa]</Name>
+<Val>101325.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Ambient Temperatur [°C]</Name>
+<Val>22.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Humidity [%]</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Density [kg/m³]</Name>
+<Val>1.19006506498010</Val>
+</DBL>
+<DBL>
+<Name>kin. Viscosity [m²/s]</Name>
+<Val>1.51922220547279E-5</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Pressure_Conf</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Pressure_Conf_Channels</Name>
+<Dimsize>42</Dimsize>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai1</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p01</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai2</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p02</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai3</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p03</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai4</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p04</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai5</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p05</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai6</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p06</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai7</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p07</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai8</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p08</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai9</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p09</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai10</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p10</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai11</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p11</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai12</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p12</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai13</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p13</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai14</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p14</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod1/ai15</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p15</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai0</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p16</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai1</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p17</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai2</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p18</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai3</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p19</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai4</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p20</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai5</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p21</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai6</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p22</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai7</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p23</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai8</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p24</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai9</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p25</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai10</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p26</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai11</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p27</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai12</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p28</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai13</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p29</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai14</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p30</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod2/ai15</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p31</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod3/ai0</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p32</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod3/ai1</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p33</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod3/ai2</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p34</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod3/ai3</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p35</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod4/ai0</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p36</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod4/ai1</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p37</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod4/ai2</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p38</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod4/ai3</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p39</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod5/ai0</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>p40</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod5/ai1</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>bara</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Channel Config</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>cDAQ-Druck3Mod5/ai2</Val>
+</DAQChannel>
+<String>
+<Name> Name</Name>
+<Val>cal84</Val>
+</String>
+<EW>
+<Name>Channel Function</Name>
+<Choice>Off</Choice>
+<Choice>1000 Pa</Choice>
+<Choice>2000 Pa</Choice>
+<Choice>5000 Pa</Choice>
+<Choice>Bara 100 Pa</Choice>
+<Choice>Bara 1000 Pa</Choice>
+<Choice>Bara 10000 Pa</Choice>
+<Choice>Raw [V]</Choice>
+<Choice>Raw [V] offset</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Amplifier Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sensor Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Pressure_Conf_Sampling</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>Sampling Rate Measurement</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<I32>
+<Name>No. of Samples Measurement</Name>
+<Val>10000</Val>
+</I32>
+<DBL>
+<Name>Sampling Rate Offset</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<I32>
+<Name>No. of Samples Offset</Name>
+<Val>10000</Val>
+</I32>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Grid Parameters</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Grid Positions in</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>X-values</Name>
+<Dimsize>6</Dimsize>
+<DBL>
+<Name></Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>200.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>400.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>600.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>800.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Y-values</Name>
+<Dimsize>6</Dimsize>
+<DBL>
+<Name></Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Z-values</Name>
+<Dimsize>6</Dimsize>
+<DBL>
+<Name></Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+</Cluster>
+<Cluster>
+<Name>grid control</Name>
+<NumElts>6</NumElts>
+<Array>
+<Name>X-axis</Name>
+<Dimsize>3</Dimsize>
+<DBL>
+<Name>Number of Steps</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Number of Steps</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Number of Steps</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Y-axis</Name>
+<Dimsize>3</Dimsize>
+<DBL>
+<Name>Number of Steps</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Number of Steps</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Number of Steps</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Z-axis</Name>
+<Dimsize>3</Dimsize>
+<DBL>
+<Name>Number of Steps</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Number of Steps</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Number of Steps</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<EW>
+<Name>Way of grid generation:</Name>
+<Choice>load grid from file</Choice>
+<Choice>start, n° of steps, end</Choice>
+<Choice>start, n° of steps, step width</Choice>
+<Choice>save grid to file</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Order of traverse movement:</Name>
+<Choice>x y z</Choice>
+<Choice>x z y</Choice>
+<Choice>y x z</Choice>
+<Choice>y z x</Choice>
+<Choice>z x y</Choice>
+<Choice>z y x</Choice>
+<Val>1</Val>
+</EW>
+<Path>
+<Name>Path to grid_file:</Name>
+<Val></Val>
+</Path>
+</Cluster>
+</Cluster>
+<Boolean>
+<Name>No Traverse</Name>
+<Val>0</Val>
+</Boolean>
+<Array>
+<Name>cDAQ_Synchro_Conf</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Chassis Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>PFI0 Function</Name>
+<Choice>disabled</Choice>
+<Choice>trigger out</Choice>
+<Choice>clock out</Choice>
+<Choice>trigger in</Choice>
+<Choice>clock in</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>PFI1 Function</Name>
+<Choice>disabled</Choice>
+<Choice>trigger out</Choice>
+<Choice>clock out</Choice>
+<Choice>trigger in</Choice>
+<Choice>clock in</Choice>
+<Val>0</Val>
+</EW>
+<DAQChannel>
+<Name>Chassis</Name>
+<Val>cDAQ-Druck3</Val>
+</DAQChannel>
+</Cluster>
+</Array>
+<U32>
+<Name>wait after move [ms]</Name>
+<Val>1000</Val>
+</U32>
+<Array>
+<Name>12_hole_probe_channels</Name>
+<Dimsize>0</Dimsize>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val></Val>
+</DAQChannel>
+</Array>
+</Cluster>
+</LVData>

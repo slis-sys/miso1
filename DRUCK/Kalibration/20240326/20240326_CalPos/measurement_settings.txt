@@ -1,0 +1,61 @@
+Pressure Measurement Program Settings
+Date and Time: 26.Mar.2024 15:43:07
+
+Ambient Parameter
+
+Ambient Pressure [Pa] : 	101325.0
+Ambient Temperatur [°C] : 	22.00
+Relative Humidity [%] : 	50.00
+Ambient Density [kg/m^3] : 	1.1901
+Kinematic Viscosity [m^2/s] : 	1.5192E-5
+
+Sampling Parameter
+
+Sampling Rate [1/s] : 	1000.0
+Number of Samples per Channel :  10000
+
+Channel Parameter
+
+Phys. Address	Name	Meas. Type	Sensor Range	Amplifier Gain	Channel Offset
+cDAQ-Druck3Mod1/ai1	 p01	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod1/ai2	 p02	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod1/ai3	 p03	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod1/ai4	 p04	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod1/ai5	 p05	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod1/ai6	 p06	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod1/ai7	 p07	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod1/ai8	 p08	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod1/ai9	 p09	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod1/ai10	 p10	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod1/ai11	 p11	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod1/ai12	 p12	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod1/ai13	 p13	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod1/ai14	 p14	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod1/ai15	 p15	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai0	 p16	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai1	 p17	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai2	 p18	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai3	 p19	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai4	 p20	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai5	 p21	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai6	 p22	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai7	 p23	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai8	 p24	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai9	 p25	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai10	 p26	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai11	 p27	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai12	 p28	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai13	 p29	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai14	 p30	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod2/ai15	 p31	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod3/ai0	 p32	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod3/ai1	 p33	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod3/ai2	 p34	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod3/ai3	 p35	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod4/ai0	 p36	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod4/ai1	 p37	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod4/ai2	 p38	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod4/ai3	 p39	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod5/ai0	 p40	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod5/ai1	 bara	 Raw [V]	 1.000000	 0.000000
+cDAQ-Druck3Mod5/ai2	 cal84	 Raw [V]	 1.000000	 0.000000

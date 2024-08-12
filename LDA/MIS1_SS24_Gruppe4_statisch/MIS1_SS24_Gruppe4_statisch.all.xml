@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!-- XML Experimental Setup Export from BSA Flow Software -->
+<export xmlns="http://www.dantecdynamics.com/bsa/experiment/export">
+<projectproperties>
+<version>6.60.00.24</version>
+<exportdatetime>11:10:15</exportdatetime>
+<username>LDA-User</username>
+<userinitials>LDA-</userinitials>
+<projectpath>C:\Users\LDA-User\Desktop\MIS1_SS24.lda</projectpath>
+<projectname>MIS1_SS24</projectname>
+<projecttitle/>
+<projectcomments/>
+</projectproperties>
+<region index="global">
+<device name="BSA Processor">
+<property name="User interface" instance="0" value="1"/>
+<property name="High voltage activation" instance="0" value="1"/>
+<property name="Anode current warning level" instance="0" value="90"/>
+<property name="Data collection mode" instance="0" value="0"/>
+<property name="Duty-cycle" instance="0" value="100"/>
+<property name="Dead-time" instance="0" value="0.0001"/>
+<property name="Calibration mode" instance="0" value="0"/>
+<property name="40 MHz frequency shift" instance="0" value="1"/>
+<property name="Variable frequency shift" instance="0" value="1"/>
+<property name="Variable shift frequency" instance="0" value="8e+07"/>
+<property name="Analog input board 1" instance="0" value="0"/>
+<property name="Analog 1" instance="0" value="1"/>
+<property name="Analog 2" instance="0" value="0"/>
+<property name="Analog 3" instance="0" value="0"/>
+<property name="Analog 4" instance="0" value="0"/>
+<property name="Digital 1" instance="0" value="0"/>
+</device>
+</region>
+<region index="0" name="New Region" posstart="1" posend="13">
+<device name="BSA Processor Group 1">
+<property name="Max. samples" instance="0" value="200000000"/>
+<property name="Max. acquisition time" instance="0" value="10"/>
+<property name="Coincidence method" instance="0" value="1"/>
+<property name="Coincidence window" instance="0" value="1e-05"/>
+<property name="Scope display" instance="0" value="1"/>
+<property name="Scope zoom" instance="0" value="400"/>
+<property name="Scope trigger channel" instance="0" value="-1"/>
+</device>
+<device name="BSA Processor LDA1">
+<property name="Center velocity" instance="0" value="4.685e+06"/>
+<property name="Velocity span" instance="0" value="7.5e+06"/>
+<property name="Record length mode" instance="0" value="1"/>
+<property name="Minimum record length" instance="0" value="64"/>
+<property name="Maximum record length" instance="0" value="256"/>
+<property name="Sensitivity" instance="0" value="1800"/>
+<property name="Signal gain" instance="0" value="26"/>
+<property name="Burst detector SNR level" instance="0" value="0"/>
+<property name="Anode current limit" instance="0" value="1500"/>
+<property name="Level validation ratio" instance="0" value="4"/>
+</device>
+<device name="BSA Processor Group 2">
+<property name="Max. samples" instance="1" value="200000000"/>
+<property name="Max. acquisition time" instance="1" value="10"/>
+<property name="Coincidence method" instance="1" value="1"/>
+<property name="Coincidence window" instance="1" value="1e-05"/>
+<property name="Scope display" instance="1" value="1"/>
+<property name="Scope zoom" instance="1" value="400"/>
+<property name="Scope trigger channel" instance="1" value="-1"/>
+</device>
+<device name="BSA Processor LDA4">
+<property name="Center velocity" instance="3" value="0"/>
+<property name="Velocity span" instance="3" value="7.5e+06"/>
+<property name="Record length mode" instance="3" value="1"/>
+<property name="Minimum record length" instance="3" value="64"/>
+<property name="Maximum record length" instance="3" value="256"/>
+<property name="Sensitivity" instance="3" value="1800"/>
+<property name="Signal gain" instance="3" value="26"/>
+<property name="Burst detector SNR level" instance="3" value="0"/>
+<property name="Anode current limit" instance="3" value="1500"/>
+<property name="Level validation ratio" instance="3" value="4"/>
+</device>
+<device name="Optical LDA System - U1">
+<property name="Wavelength" instance="0" value="514.5"/>
+<property name="Focal length" instance="0" value="500"/>
+<property name="Beam diameter" instance="0" value="2.2"/>
+<property name="Expander ratio" instance="0" value="1.98"/>
+<property name="Beam spacing" instance="0" value="38"/>
+<property name="Frequency shift" instance="0" value="4e+07"/>
+<property name="Laser model" instance="0" value="Uncontrolled"/>
+<property name="Number of fringes" instance="0" value="21"/>
+<property name="Fringe spacing (um)" instance="0" value="3.429"/>
+<property name="Beam half-angle (deg)" instance="0" value="4.303"/>
+<property name="Probe volume - dx (mm)" instance="0" value="0.07541"/>
+<property name="Probe volume - dy (mm)" instance="0" value="0.07519"/>
+<property name="Probe volume - dz (mm)" instance="0" value="1.002"/>
+</device>
+<device name="Optical LDA System - U2">
+<property name="Wavelength" instance="1" value="488"/>
+<property name="Focal length" instance="1" value="500"/>
+<property name="Beam diameter" instance="1" value="2.2"/>
+<property name="Expander ratio" instance="1" value="1.98"/>
+<property name="Beam spacing" instance="1" value="38"/>
+<property name="Frequency shift" instance="1" value="4e+07"/>
+<property name="Laser model" instance="1" value="Uncontrolled"/>
+<property name="Number of fringes" instance="1" value="21"/>
+<property name="Fringe spacing (um)" instance="1" value="3.252"/>
+<property name="Beam half-angle (deg)" instance="1" value="4.303"/>
+<property name="Probe volume - dx (mm)" instance="1" value="0.07152"/>
+<property name="Probe volume - dy (mm)" instance="1" value="0.07132"/>
+<property name="Probe volume - dz (mm)" instance="1" value="0.9506"/>
+</device>
+</region>
+</export>

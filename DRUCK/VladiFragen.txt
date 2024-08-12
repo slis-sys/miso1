@@ -1,0 +1,9 @@
+- Kalbierierkoeffizient berechnen wie?
+--> Baratron=AI00 (RIO) [Quelle: Aufgabenstellung] vs Baratron=Mod5_ai1 (cDAQ) [siehe measurement_settings.txt]
+--> baratron*100 / mean_p1 = kalibrierkoeffizient_p1 ? bei noflow weil da müssten alle Drücke ja gleich sein?
+--> ändern sich die Koeffizenten von Messung zu Messung? jedes mal neu?
+
+
+
+LDA
+- Welche Koordinate verfahren wir? wo liegt das KOS? Welche Achse in Strömungsrichtung?
